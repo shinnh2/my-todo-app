@@ -145,6 +145,7 @@ const Modal = ({
 		setTodoColor(e.target.value);
 	};
 
+	console.log();
 	return (
 		<ModalWrap>
 			<ModalHeader>
@@ -163,6 +164,7 @@ const Modal = ({
 					title="할 일 입력"
 					id="todoText"
 					placeholder="할 일을 입력하세요"
+					defaultValue={!isCreate ? nowTodo : ""}
 					onChange={handleChangeTodo}
 				/>
 				<ColorPicker>
