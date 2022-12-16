@@ -28,15 +28,6 @@ const Container = styled.div`
 
 /* Contents 부분 */
 
-const Title = styled.h3`
-	font-size: 24px;
-	font-weight: var(--font-regular);
-`;
-
-const TodoList = styled.ul`
-	padding: 16px 0;
-`;
-
 const Mockup = styled.div`
 	width: 380px;
 	height: 640px;

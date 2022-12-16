@@ -72,10 +72,10 @@ const ColorChip = styled.div`
 const ListItem = ({ todo, color, setNowTodo, handleClickModalOpen }) => {
 	const [itemClass, setItemClass] = useState("");
 
-	const handleClickMore = (todo) => {
-		setNowTodo(todo);
-		handleClickModalOpen();
-	};
+	// const handleClickMore = (todo) => {
+	// 	setNowTodo(todo);
+	// 	handleClickModalOpen();
+	// };
 	const handleChangeCheck = (e) => {
 		let value = e.currentTarget.checked;
 		if (value) {
