@@ -15,6 +15,6 @@ TODO 관리를 위한 웹 애플리케이션입니다.
 
 ## Project Wiki
 
-프로젝트 시연 Gif 입니다.
-
+- 배포 페이지: https://shinnh2.github.io/my-todo-app/
+- 프로젝트 시연 Gif 입니다.
 ![S4_U12_todo_app](https://user-images.githubusercontent.com/35826626/208032061-db79c34d-e0aa-4d12-8cdd-1e9be390318c.gif)
